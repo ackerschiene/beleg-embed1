@@ -1,0 +1,2 @@
+#!/bin/bash
+LANG=en-US /usr/bin/avr-g++ $*
