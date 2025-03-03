@@ -1,0 +1,2046 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                              ./src/main.o (_ZN14HardwareSerial5beginEl)
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKc)
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                              ./src/main.o (attachInterrupt)
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (_ZNK6StringixEj)
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+                              ./src/main.o (pinMode)
+/home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o) (port_to_mode_PGM)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                              ./src/main.o (xQueueGenericCreate)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                              ./src/main.o (xTaskCreate)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o) (xTimerCreateTimerTask)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o) (vApplicationIdleHook)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o) (pvPortMalloc)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o) (vListInitialise)
+/home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o) (pxPortInitialiseStack)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o) (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              ./src/main.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              ./src/main.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o) (__do_global_ctors)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__subsf3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__ltsf2)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__divsf3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__fixsfsi)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__fixunssfsi)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__floatunsisf)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o) (__mulsf3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (malloc)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (realloc)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (atol)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (isspace)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (tolower)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (toupper)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o) (memcpy)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o) (memset)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strcat)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strchr)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strcmp)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strcpy)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strncmp)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strncpy)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strrchr)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (strstr)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (itoa)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o) (__itoa_ncheck)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (ltoa)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o) (__ltoa_ncheck)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o) (__mulsi_const_10)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o) (ultoa)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o) (__ultoa_ncheck)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o) (__utoa_common)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o) (system_tick)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o) (__ctype_isfalse)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o) (strrev)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o) (__system_time)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o) (__prologue_saves__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+portTickRateHz      0x2               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+__flp               0x2               /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+ticksRemainingInSec
+                    0x2               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+__system_time       0x4               /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .rodata._ZL2SS
+                0x0000000000000000        0x1 ./src/main.o
+ .rodata._ZL4MOSI
+                0x0000000000000000        0x1 ./src/main.o
+ .rodata._ZL4MISO
+                0x0000000000000000        0x1 ./src/main.o
+ .rodata._ZL3SCK
+                0x0000000000000000        0x1 ./src/main.o
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.prvCopyDataToQueue
+                0x0000000000000000       0xa6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueCreateCountingSemaphore
+                0x0000000000000000       0x26 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueGenericSend
+                0x0000000000000000      0x12c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueCreateMutex
+                0x0000000000000000       0x34 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueGiveMutexRecursive
+                0x0000000000000000       0x44 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueGenericSendFromISR
+                0x0000000000000000       0x68 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueTakeMutexRecursive
+                0x0000000000000000       0x48 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueuePeek
+                0x0000000000000000      0x124 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueReceiveFromISR
+                0x0000000000000000       0x66 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueuePeekFromISR
+                0x0000000000000000       0x2e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.uxQueueMessagesWaiting
+                0x0000000000000000       0x10 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.uxQueueSpacesAvailable
+                0x0000000000000000       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.uxQueueMessagesWaitingFromISR
+                0x0000000000000000        0x6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.vQueueDelete
+                0x0000000000000000        0x4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.uxQueueGetQueueItemSize
+                0x0000000000000000        0x6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.uxQueueGetQueueLength
+                0x0000000000000000        0x6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueIsQueueEmptyFromISR
+                0x0000000000000000        0xc /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueIsQueueFullFromISR
+                0x0000000000000000        0xe /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskDelete
+                0x0000000000000000       0xba /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskPriorityGet
+                0x0000000000000000       0x1e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskBasePriorityGet
+                0x0000000000000000       0x1e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskBasePriorityGetFromISR
+                0x0000000000000000       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskPrioritySet
+                0x0000000000000000      0x108 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskResume
+                0x0000000000000000       0xd6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskResumeFromISR
+                0x0000000000000000       0xd0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskEndScheduler
+                0x0000000000000000       0x22 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGetTickCountFromISR
+                0x0000000000000000        0xa /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.pcTaskGetName
+                0x0000000000000000       0x10 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskDelayUntil
+                0x0000000000000000       0x70 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskDelay
+                0x0000000000000000       0x2a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskCatchUpTicks
+                0x0000000000000000       0x30 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskSuspend
+                0x0000000000000000       0xac /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x8a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000      0x10e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskSetTimeOutState
+                0x0000000000000000       0x20 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskGetStackHighWaterMark
+                0x0000000000000000       0x22 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGetCurrentTaskHandle
+                0x0000000000000000        0xa /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGetCurrentTaskHandleForCore
+                0x0000000000000000       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGetSchedulerState
+                0x0000000000000000       0x1c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskPriorityDisinherit
+                0x0000000000000000       0xa4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.uxTaskResetEventItemValue
+                0x0000000000000000       0x2e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.ulTaskGenericNotifyTake
+                0x0000000000000000      0x102 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGenericNotifyWait
+                0x0000000000000000      0x16e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGenericNotify
+                0x0000000000000000      0x1b8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x20c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskGenericNotifyGiveFromISR
+                0x0000000000000000      0x162 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskGenericNotifyStateClear
+                0x0000000000000000       0x2c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.ulTaskGenericNotifyValueClear
+                0x0000000000000000       0x68 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.vTaskResetState
+                0x0000000000000000       0x42 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerCreate
+                0x0000000000000000       0x6e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGenericCommandFromTask
+                0x0000000000000000       0x6a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGenericCommandFromISR
+                0x0000000000000000       0x4c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGetTimerDaemonTaskHandle
+                0x0000000000000000        0xa /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGetPeriod
+                0x0000000000000000        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.vTimerSetReloadMode
+                0x0000000000000000       0x1c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGetReloadMode
+                0x0000000000000000       0x16 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.uxTimerGetReloadMode
+                0x0000000000000000        0x4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerGetExpiryTime
+                0x0000000000000000        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.pcTimerGetName
+                0x0000000000000000        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerIsTimerActive
+                0x0000000000000000       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.pvTimerGetTimerID
+                0x0000000000000000       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.vTimerSetTimerID
+                0x0000000000000000       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.vTimerResetState
+                0x0000000000000000       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .text.initVariant
+                0x0000000000000000       0x22 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .text._Z15prvSetMainLedOnv
+                0x0000000000000000        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .text._Z15prvBlinkMainLedv
+                0x0000000000000000        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+ .text.hot.vPortHeapResetState
+                0x0000000000000000        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+ .text.hot.vListInsertEnd
+                0x0000000000000000       0x42 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+ .text          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .data          0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .bss           0x0000000000000000        0x0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .text.hot.vPortEndScheduler
+                0x0000000000000000       0x18 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .text.vPortDelay
+                0x0000000000000000       0x32 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .text.hot.vPortYieldFromTick
+                0x0000000000000000       0xe4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .text.hot.WDT_vect
+                0x0000000000000000        0x6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+ .text          0x0000000000000000       0x38 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+ COMMON         0x0000000000000000        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800100 0x0000000000000800 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+LOAD ./src/main.o
+LOAD /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a
+LOAD /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a
+LOAD /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a
+LOAD /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x413a
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.prvTimerTask
+                0x0000000000000068       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                0x000000000000007a                . = ALIGN (0x2)
+                0x000000000000007a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000007a        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000007a                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data  0x000000000000007a       0x5a /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                0x000000000000007a                port_to_mode_PGM
+                0x0000000000000084                port_to_output_PGM
+                0x000000000000008e                port_to_input_PGM
+                0x0000000000000098                digital_pin_to_port_PGM
+                0x00000000000000ac                digital_pin_to_bit_mask_PGM
+                0x00000000000000c0                digital_pin_to_timer_PGM
+                0x00000000000000d4                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000000000000d4                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000000000000d4        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000000d6                __ctors_end = .
+                0x00000000000000d6                __dtors_start = .
+ *(.dtors)
+                0x00000000000000d6                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000000000000d6        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000d6                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000000000000d6        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000000e2       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x00000000000000e2                __do_copy_data
+ .init4         0x00000000000000f8       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000f8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000108       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+                0x0000000000000108                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000011e        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000126        0x2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000126                __vector_22
+                0x0000000000000126                __vector_24
+                0x0000000000000126                __vector_12
+                0x0000000000000126                __bad_interrupt
+                0x0000000000000126                __vector_6
+                0x0000000000000126                __vector_3
+                0x0000000000000126                __vector_23
+                0x0000000000000126                __vector_25
+                0x0000000000000126                __vector_11
+                0x0000000000000126                __vector_13
+                0x0000000000000126                __vector_17
+                0x0000000000000126                __vector_19
+                0x0000000000000126                __vector_7
+                0x0000000000000126                __vector_5
+                0x0000000000000126                __vector_4
+                0x0000000000000126                __vector_9
+                0x0000000000000126                __vector_21
+                0x0000000000000126                __vector_15
+                0x0000000000000126                __vector_8
+                0x0000000000000126                __vector_14
+                0x0000000000000126                __vector_10
+                0x0000000000000126                __vector_16
+                0x0000000000000126                __vector_20
+ .text          0x0000000000000128      0x378 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000128                __vector_18
+                0x000000000000018a                _ZN14HardwareSerialC2EP11ring_bufferPVhS3_S3_S3_S3_hhhhh
+                0x00000000000001ea                _ZN14HardwareSerialC1EP11ring_bufferPVhS3_S3_S3_S3_hhhhh
+                0x000000000000024a                _ZN14HardwareSerial5beginEl
+                0x00000000000002fc                _ZN14HardwareSerial3endEv
+                0x0000000000000350                _ZN14HardwareSerial9availableEv
+                0x0000000000000372                _ZN14HardwareSerial4peekEv
+                0x00000000000003a6                _ZN14HardwareSerial4readEv
+                0x00000000000003ee                _ZN14HardwareSerial5flushEv
+                0x0000000000000406                _ZN14HardwareSerial5writeEh
+ .text          0x00000000000004a0      0x55c /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                0x00000000000004a0                _ZN5Print5writeEPKc
+                0x00000000000004d0                _ZN5Print5writeEPKhj
+                0x000000000000050e                _ZN5Print5printEPKc
+                0x000000000000051e                _ZN5Print5printERK6String
+                0x0000000000000570                _ZN5Print11printNumberEmh
+                0x000000000000069c                _ZN5Print5printEmi
+                0x00000000000006b6                _ZN5Print5printEji
+                0x00000000000006d6                _ZN5Print5printEhi
+                0x00000000000006f8                _ZN5Print5printEli
+                0x0000000000000760                _ZN5Print5printEii
+                0x0000000000000784                _ZN5Print5printEci
+                0x00000000000007a6                _ZN5Print7printlnEv
+                0x00000000000007d0                _ZN5Print7printlnEmi
+                0x00000000000007e2                _ZN5Print7printlnEji
+                0x0000000000000810                _ZN5Print7printlnEhi
+                0x0000000000000840                _ZN5Print7printlnEPKc
+                0x0000000000000852                _ZN5Print7printlnERK6String
+                0x0000000000000864                _ZN5Print7printlnEli
+                0x0000000000000876                _ZN5Print7printlnEii
+                0x00000000000008a8                _ZN5Print7printlnEci
+                0x00000000000008d8                _ZN5Print10printFloatEdh
+                0x00000000000009e8                _ZN5Print5printEdi
+                0x00000000000009ea                _ZN5Print7printlnEdi
+ .text          0x00000000000009fc      0x120 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                0x00000000000009fc                attachInterrupt
+                0x0000000000000a42                detachInterrupt
+                0x0000000000000a68                __vector_1
+                0x0000000000000ac2                __vector_2
+ .text          0x0000000000000b1c      0xf98 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+                0x0000000000000b1c                _ZNK6String6charAtEj
+                0x0000000000000b2c                _ZN6String9setCharAtEjc
+                0x0000000000000b4e                _ZN6StringixEj
+                0x0000000000000b78                _ZNK6StringixEj
+                0x0000000000000b88                _ZN6String5toIntEv
+                0x0000000000000b92                _ZN6String11toCharArrayEPcj
+                0x0000000000000bd6                _ZN6String8getBytesEPhj
+                0x0000000000000c1a                _ZN6StringD1Ev
+                0x0000000000000c3a                _ZNK6String10startsWithERKS_j
+                0x0000000000000c76                _ZNK6String10startsWithERKS_
+                0x0000000000000c98                _ZNK6String11lastIndexOfEcj
+                0x0000000000000d02                _ZNK6String11lastIndexOfEc
+                0x0000000000000d0e                _ZNK6String7indexOfERKS_j
+                0x0000000000000d4a                _ZNK6String7indexOfERKS_
+                0x0000000000000d50                _ZNK6String7indexOfEcj
+                0x0000000000000d88                _ZNK6String7indexOfEc
+                0x0000000000000d8e                _ZNK6String6equalsERKS_
+                0x0000000000000dc0                _ZNK6String8endsWithERKS_
+                0x0000000000000dfa                _ZNK6StringgeERKS_
+                0x0000000000000e22                _ZNK6StringleERKS_
+                0x0000000000000e44                _ZNK6StringgtERKS_
+                0x0000000000000e66                _ZNK6StringltERKS_
+                0x0000000000000e8a                _ZNK6StringneERKS_
+                0x0000000000000eba                _ZNK6StringeqERKS_
+                0x0000000000000eee                _ZNK6String9compareToERKS_
+                0x0000000000000efe                _ZN6StringpLERKS_
+                0x0000000000000f6e                _ZN6String6concatERKS_
+                0x0000000000000f70                _ZN6String9getBufferEj
+                0x0000000000000f98                _ZN6StringaSERKS_
+                0x0000000000000ff6                _ZN6StringC1Eh
+                0x0000000000001028                _ZN6StringC2Eh
+                0x000000000000105a                _ZN6StringC1Ec
+                0x000000000000108c                _ZN6StringC2Ec
+                0x00000000000010be                _ZN6StringC1ERKS_
+                0x00000000000010f2                _ZN6StringC2ERKS_
+                0x0000000000001126                _ZN6StringC1Emi
+                0x00000000000011a2                _ZN6StringC2Emi
+                0x000000000000121e                _ZN6StringC1Eji
+                0x0000000000001298                _ZN6StringC2Eji
+                0x0000000000001312                _ZN6StringC1EPKc
+                0x0000000000001360                _ZNK6String11toUpperCaseEv
+                0x00000000000013d0                _ZNK6String11toLowerCaseEv
+                0x0000000000001440                _ZNK6String16equalsIgnoreCaseERKS_
+                0x00000000000014d0                _ZNK6String9substringEjj
+                0x000000000000153c                _ZNK6String9substringEj
+                0x0000000000001552                _ZNK6String11lastIndexOfERKS_j
+                0x0000000000001616                _ZNK6String11lastIndexOfERKS_
+                0x000000000000162e                _ZNK6String4trimEv
+                0x00000000000016fc                _ZN6String7replaceERKS_S1_
+                0x0000000000001814                _ZN6String7replaceEcc
+                0x000000000000188a                _ZN6StringC2EPKc
+                0x00000000000018d8                _ZN6StringC1Eli
+                0x0000000000001950                _ZN6StringC2Eli
+                0x00000000000019c8                _ZN6StringC1Eii
+                0x0000000000001a3e                _ZN6StringC2Eii
+ .text          0x0000000000001ab4      0x16c /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+                0x0000000000001ab4                pinMode
+                0x0000000000001b5a                digitalWrite
+                0x0000000000001bc2                digitalRead
+                0x0000000000001c20                . = ALIGN (0x2)
+ *(.text.*)
+ .text.wdt_interrupt_enable
+                0x0000000000001c20       0x10 ./src/main.o
+                0x0000000000001c20                wdt_interrupt_enable
+ .text.__cxa_pure_virtual
+                0x0000000000001c30        0xa ./src/main.o
+                0x0000000000001c30                __cxa_pure_virtual
+ .text._Z16interruptHandlerv
+                0x0000000000001c3a       0x34 ./src/main.o
+                0x0000000000001c3a                _Z16interruptHandlerv
+ .text._Z9TaskLedonPv
+                0x0000000000001c6e       0x3e ./src/main.o
+                0x0000000000001c6e                _Z9TaskLedonPv
+ .text._Z10TaskLedoffPv
+                0x0000000000001cac       0x3e ./src/main.o
+                0x0000000000001cac                _Z10TaskLedoffPv
+ .text.setup    0x0000000000001cea       0x8c ./src/main.o
+                0x0000000000001cea                setup
+ .text.loop     0x0000000000001d76       0x10 ./src/main.o
+                0x0000000000001d76                loop
+ .text.main     0x0000000000001d86       0x16 ./src/main.o
+                0x0000000000001d86                main
+ .text.hot.prvIsQueueEmpty
+                0x0000000000001d9c       0x16 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.prvCopyDataFromQueue
+                0x0000000000001db2       0x34 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.prvUnlockQueue
+                0x0000000000001de6       0x74 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .text.hot.xQueueGenericReset
+                0x0000000000001e5a       0x90 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x0000000000001e5a                xQueueGenericReset
+ .text.hot.xQueueGenericCreate
+                0x0000000000001eea       0x4e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x0000000000001eea                xQueueGenericCreate
+ .text.hot.xQueueGiveFromISR
+                0x0000000000001f38       0x5a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x0000000000001f38                xQueueGiveFromISR
+ .text.hot.xQueueReceive
+                0x0000000000001f92      0x108 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x0000000000001f92                xQueueReceive
+ .text.hot.xQueueSemaphoreTake
+                0x000000000000209a      0x164 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x000000000000209a                xQueueSemaphoreTake
+ .text.hot.vQueueWaitForMessageRestricted
+                0x00000000000021fe       0x34 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                0x00000000000021fe                vQueueWaitForMessageRestricted
+ .text.hot.prvResetNextTaskUnblockTime
+                0x0000000000002232       0x30 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.prvAddCurrentTaskToDelayedList
+                0x0000000000002262      0x11a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.prvCheckTasksWaitingTermination
+                0x000000000000237c       0x50 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.prvIdleTask
+                0x00000000000023cc       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .text.hot.xTaskCreate
+                0x00000000000023de      0x226 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x00000000000023de                xTaskCreate
+ .text.hot.vTaskStartScheduler
+                0x0000000000002604       0x8e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002604                vTaskStartScheduler
+ .text.hot.vTaskSuspendAll
+                0x0000000000002692        0xc /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002692                vTaskSuspendAll
+ .text.hot.xTaskGetTickCount
+                0x000000000000269e       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x000000000000269e                xTaskGetTickCount
+ .text.hot.uxTaskGetNumberOfTasks
+                0x00000000000026b2        0x6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x00000000000026b2                uxTaskGetNumberOfTasks
+ .text.hot.xTaskIncrementTick
+                0x00000000000026b8      0x1fc /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x00000000000026b8                xTaskIncrementTick
+ .text.hot.xTaskResumeAll
+                0x00000000000028b4      0x19a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x00000000000028b4                xTaskResumeAll
+ .text.hot.vTaskSwitchContext
+                0x0000000000002a4e       0xbe /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002a4e                vTaskSwitchContext
+ .text.hot.vTaskPlaceOnEventList
+                0x0000000000002b0c       0x1e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002b0c                vTaskPlaceOnEventList
+ .text.hot.vTaskPlaceOnEventListRestricted
+                0x0000000000002b2a       0x8e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002b2a                vTaskPlaceOnEventListRestricted
+ .text.hot.xTaskRemoveFromEventList
+                0x0000000000002bb8      0x158 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002bb8                xTaskRemoveFromEventList
+ .text.hot.vTaskInternalSetTimeOutState
+                0x0000000000002d10       0x16 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002d10                vTaskInternalSetTimeOutState
+ .text.hot.xTaskCheckForTimeOut
+                0x0000000000002d26       0x62 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002d26                xTaskCheckForTimeOut
+ .text.hot.vTaskMissedYield
+                0x0000000000002d88        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002d88                vTaskMissedYield
+ .text.hot.xTaskPriorityInherit
+                0x0000000000002d90       0xf6 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002d90                xTaskPriorityInherit
+ .text.hot.vTaskPriorityDisinheritAfterTimeout
+                0x0000000000002e86       0xbc /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002e86                vTaskPriorityDisinheritAfterTimeout
+ .text.hot.pvTaskIncrementMutexHeldCount
+                0x0000000000002f42       0x16 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x0000000000002f42                pvTaskIncrementMutexHeldCount
+ .text.hot.prvCheckForValidListAndQueue
+                0x0000000000002f58       0x4e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.prvInsertTimerInActiveList
+                0x0000000000002fa6       0x52 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.prvReloadTimer
+                0x0000000000002ff8       0x46 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.prvProcessExpiredTimer
+                0x000000000000303e       0x50 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.prvSwitchTimerLists
+                0x000000000000308e       0x3a /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.prvTimerTask
+                0x00000000000030c8      0x1aa /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .text.hot.xTimerCreateTimerTask
+                0x0000000000003272       0x3c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                0x0000000000003272                xTimerCreateTimerTask
+ .text.vApplicationIdleHook
+                0x00000000000032ae        0x4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                0x00000000000032ae                vApplicationIdleHook
+ .text.vApplicationMallocFailedHook
+                0x00000000000032b2       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                0x00000000000032b2                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x00000000000032c6       0x14 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                0x00000000000032c6                vApplicationStackOverflowHook
+ .text.hot.pvPortMalloc
+                0x00000000000032da       0x1e /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                0x00000000000032da                pvPortMalloc
+ .text.hot.vPortFree
+                0x00000000000032f8       0x1c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                0x00000000000032f8                vPortFree
+ .text.hot.vListInitialise
+                0x0000000000003314       0x1c /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                0x0000000000003314                vListInitialise
+ .text.hot.vListInitialiseItem
+                0x0000000000003330        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                0x0000000000003330                vListInitialiseItem
+ .text.hot.vListInsert
+                0x0000000000003338       0x70 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                0x0000000000003338                vListInsert
+ .text.hot.uxListRemove
+                0x00000000000033a8       0x46 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                0x00000000000033a8                uxListRemove
+ .text.hot.pxPortInitialiseStack
+                0x00000000000033ee       0xd8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                0x00000000000033ee                pxPortInitialiseStack
+ .text.hot.xPortStartScheduler
+                0x00000000000034c6       0x78 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                0x00000000000034c6                xPortStartScheduler
+ .text.hot.vPortYield
+                0x000000000000353e       0xb0 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                0x000000000000353e                vPortYield
+ .text.libgcc.div
+                0x00000000000035ee       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x00000000000035ee                __udivmodsi4
+ .text.libgcc   0x0000000000003632        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000003632                __tablejump2__
+ .text.avr-libc.fplib
+                0x000000000000363e        0xa /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                0x000000000000363e                __subsf3
+                0x0000000000003640                __addsf3
+ .text.avr-libc.fplib
+                0x0000000000003648       0xc0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                0x0000000000003662                __addsf3x
+ .text.avr-libc.fplib
+                0x0000000000003708        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                0x0000000000003708                __lesf2
+                0x0000000000003708                __nesf2
+                0x0000000000003708                __eqsf2
+                0x0000000000003708                __cmpsf2
+                0x0000000000003708                __ltsf2
+ .text.avr-libc.fplib
+                0x0000000000003710        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                0x0000000000003710                __divsf3
+ .text.avr-libc.fplib
+                0x0000000000003714       0xcc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                0x000000000000372a                __divsf3x
+                0x000000000000372e                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00000000000037e0        0xa /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                0x00000000000037e0                __fixsfsi
+ .text.avr-libc.fplib
+                0x00000000000037ea       0x58 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                0x00000000000037ea                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000003842       0x7a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                0x0000000000003842                __floatunsisf
+                0x0000000000003846                __floatsisf
+ .text.avr-libc.fplib
+                0x00000000000038bc       0x48 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                0x00000000000038bc                __fp_cmp
+ .text.avr-libc.fplib
+                0x0000000000003904        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                0x0000000000003904                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000003910        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                0x0000000000003910                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000003916        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                0x0000000000003916                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000003924        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                0x0000000000003924                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000003932       0x22 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                0x0000000000003932                __fp_round
+ .text.avr-libc.fplib
+                0x0000000000003954       0x44 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                0x0000000000003954                __fp_split3
+                0x0000000000003964                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000003998        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                0x0000000000003998                __fp_zero
+                0x000000000000399a                __fp_szero
+ .text.avr-libc.fplib
+                0x00000000000039a6        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                0x00000000000039a6                __mulsf3
+ .text.avr-libc.fplib
+                0x00000000000039aa       0xc2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                0x00000000000039be                __mulsf3x
+                0x00000000000039c2                __mulsf3_pse
+ .text.avr-libc
+                0x0000000000003a6c      0x242 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0000000000003a6c                malloc
+                0x0000000000003b9c                free
+ .text.avr-libc
+                0x0000000000003cae      0x17e /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                0x0000000000003cae                realloc
+ .text.avr-libc
+                0x0000000000003e2c       0x4c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+                0x0000000000003e2c                atol
+ .text.avr-libc
+                0x0000000000003e78       0x10 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                0x0000000000003e78                isspace
+ .text.avr-libc
+                0x0000000000003e88       0x10 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+                0x0000000000003e88                tolower
+ .text.avr-libc
+                0x0000000000003e98       0x10 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+                0x0000000000003e98                toupper
+ .text.avr-libc
+                0x0000000000003ea8       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x0000000000003ea8                memcpy
+ .text.avr-libc
+                0x0000000000003eba        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+                0x0000000000003eba                memset
+ .text.avr-libc
+                0x0000000000003ec8       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+                0x0000000000003ec8                strcat
+ .text.avr-libc
+                0x0000000000003ede       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+                0x0000000000003ede                strchr
+ .text.avr-libc
+                0x0000000000003ef4       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+                0x0000000000003ef4                strcmp
+ .text.avr-libc
+                0x0000000000003f06        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+                0x0000000000003f06                strcpy
+ .text.avr-libc
+                0x0000000000003f14       0x1c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+                0x0000000000003f14                strncmp
+ .text.avr-libc
+                0x0000000000003f30       0x1e /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+                0x0000000000003f30                strncpy
+ .text.avr-libc
+                0x0000000000003f4e       0x16 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+                0x0000000000003f4e                strrchr
+ .text.avr-libc
+                0x0000000000003f64       0x34 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+                0x0000000000003f64                strstr
+ .text.avr-libc
+                0x0000000000003f98       0x14 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+                0x0000000000003f98                itoa
+                0x0000000000003f98                __itoa
+ .text.avr-libc
+                0x0000000000003fac       0x14 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                0x0000000000003fac                __itoa_ncheck
+ .text.avr-libc
+                0x0000000000003fc0       0x14 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+                0x0000000000003fc0                __ltoa
+                0x0000000000003fc0                ltoa
+ .text.avr-libc
+                0x0000000000003fd4       0x1c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+                0x0000000000003fd4                __ltoa_ncheck
+ .text.avr-libc
+                0x0000000000003ff0       0x2a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                0x0000000000003ff0                __mulsi_const_10
+ .text.avr-libc
+                0x000000000000401a       0x14 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+                0x000000000000401a                __ultoa
+                0x000000000000401a                ultoa
+ .text.avr-libc
+                0x000000000000402e       0x42 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                0x000000000000402e                __ultoa_ncheck
+                0x0000000000004030                __ultoa_common
+ .text.avr-libc
+                0x0000000000004070       0x32 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                0x0000000000004070                __utoa_ncheck
+                0x0000000000004072                __utoa_common
+ .text.avr-libc
+                0x00000000000040a2        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                0x00000000000040a2                __ctype_isfalse
+                0x00000000000040a6                __ctype_istrue
+ .text.avr-libc
+                0x00000000000040a8       0x20 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+                0x00000000000040a8                strrev
+ .text.libgcc.prologue
+                0x00000000000040c8       0x38 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                0x00000000000040c8                __prologue_saves__
+ .text.libgcc.prologue
+                0x0000000000004100       0x36 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                0x0000000000004100                __epilogue_restores__
+                0x0000000000004136                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000004136        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x0000000000004136                exit
+                0x0000000000004136                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000004136        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000000000000413a                _etext = .
+
+.data           0x0000000000800100       0xa0 load address 0x000000000000413a
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100       0x24 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000800100                _ZTV14HardwareSerial
+                0x0000000000800112                _ZTV6Stream
+ .data          0x0000000000800124        0xc /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                0x0000000000800126                _ZTV5Print
+ .data          0x0000000000800130        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+ .data          0x0000000000800131        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0000000000800131                __malloc_heap_end
+                0x0000000000800133                __malloc_heap_start
+                0x0000000000800135                __malloc_margin
+ *(.data*)
+ .data.uxTopUsedPriority
+                0x0000000000800137        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x0000000000800138       0x5b ./src/main.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800193        0x5 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .rodata.str1.1
+                0x0000000000800198        0x8 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ *(.gnu.linkonce.r*)
+                0x00000000008001a0                . = ALIGN (0x2)
+                0x00000000008001a0                _edata = .
+                0x00000000008001a0                PROVIDE (__data_end, .)
+
+.bss            0x00000000008001a0      0x129
+                0x00000000008001a0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00000000008001a0       0x97 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                0x00000000008001a0                rx_buffer
+                0x0000000000800224                Serial
+ .bss           0x0000000000800237        0x4 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+ .bss           0x000000000080023b        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+ *(.bss*)
+ .bss.interruptSemaphore
+                0x000000000080023c        0x2 ./src/main.o
+                0x000000000080023c                interruptSemaphore
+ .bss.uxSchedulerSuspended
+                0x000000000080023e        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xIdleTaskHandles
+                0x000000000080023f        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xNextTaskUnblockTime
+                0x0000000000800241        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.uxTaskNumber
+                0x0000000000800243        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x0000000000800244        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xYieldPendings
+                0x0000000000800245        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xPendedTicks
+                0x0000000000800246        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x0000000000800248        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.uxTopReadyPriority
+                0x0000000000800249        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xTickCount
+                0x000000000080024a        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.uxCurrentNumberOfTasks
+                0x000000000080024c        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xSuspendedTaskList
+                0x000000000080024d        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0000000000800256        0x1 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xTasksWaitingTermination
+                0x0000000000800257        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xPendingReadyList
+                0x0000000000800260        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x0000000000800269        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.pxDelayedTaskList
+                0x000000000080026b        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x000000000080026d        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x0000000000800276        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x000000000080027f       0x24 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .bss.pxCurrentTCB
+                0x00000000008002a3        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                0x00000000008002a3                pxCurrentTCB
+ .bss.xLastTime.2400
+                0x00000000008002a5        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.xTimerTaskHandle
+                0x00000000008002a7        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.xTimerQueue
+                0x00000000008002a9        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.pxOverflowTimerList
+                0x00000000008002ab        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.pxCurrentTimerList
+                0x00000000008002ad        0x2 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.xActiveTimerList2
+                0x00000000008002af        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .bss.xActiveTimerList1
+                0x00000000008002b8        0x9 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ *(COMMON)
+ COMMON         0x00000000008002c1        0x4 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                0x00000000008002c1                portTickRateHz
+                0x00000000008002c3                ticksRemainingInSec
+ COMMON         0x00000000008002c5        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x00000000008002c5                __brkval
+                0x00000000008002c7                __flp
+                0x00000000008002c9                PROVIDE (__bss_end, .)
+                0x000000000000413a                __data_load_start = LOADADDR (.data)
+                0x00000000000041da                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008002c9        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008002c9                _end = .
+                0x00000000008002c9                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000      0xbac
+ *(.stab)
+ .stab          0x0000000000000000      0xbac ./src/main.o
+
+.stabstr        0x0000000000000000     0x22f0
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x22f0 ./src/main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./src/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+ .comment       0x0000000000000011       0x12 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(BinarySemaphores.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+Serial                                            /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                                                  ./src/main.o
+WDT_vect                                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+_Z10TaskLedoffPv                                  ./src/main.o
+_Z15prvBlinkMainLedv                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+_Z15prvSetMainLedOnv                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+_Z16interruptHandlerv                             ./src/main.o
+_Z9TaskLedonPv                                    ./src/main.o
+_ZN14HardwareSerial3endEv                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial4peekEv                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial4readEv                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial5beginEl                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                                                  ./src/main.o
+_ZN14HardwareSerial5flushEv                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial5writeEh                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial9availableEv                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerialC1EP11ring_bufferPVhS3_S3_S3_S3_hhhhh /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerialC2EP11ring_bufferPVhS3_S3_S3_S3_hhhhh /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN5Print10printFloatEdh                          /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print11printNumberEmh                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEPKc                               /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printERK6String                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEci                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEdi                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEhi                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEii                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEji                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEli                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5printEmi                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print5writeEPKc                               /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN5Print5writeEPKhj                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZN5Print7printlnEPKc                             /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  ./src/main.o
+_ZN5Print7printlnERK6String                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEci                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEdi                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEhi                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEii                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEji                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEli                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEmi                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEv                               /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZN6String11toCharArrayEPcj                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String5toIntEv                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String6concatERKS_                            /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String7replaceERKS_S1_                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String7replaceEcc                             /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String8getBytesEPhj                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String9getBufferEj                            /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6String9setCharAtEjc                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1EPKc                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1ERKS_                                 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Ec                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Eh                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Eii                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Eji                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Eli                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC1Emi                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2EPKc                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2ERKS_                                 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Ec                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Eh                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Eii                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Eji                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Eli                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringC2Emi                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringD1Ev                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringaSERKS_                                 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringixEj                                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZN6StringpLERKS_                                 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String10startsWithERKS_                      /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String10startsWithERKS_j                     /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11lastIndexOfERKS_                     /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11lastIndexOfERKS_j                    /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11lastIndexOfEc                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11lastIndexOfEcj                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11toLowerCaseEv                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String11toUpperCaseEv                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String16equalsIgnoreCaseERKS_                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String4trimEv                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String6charAtEj                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String6equalsERKS_                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String7indexOfERKS_                          /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String7indexOfERKS_j                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String7indexOfEc                             /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String7indexOfEcj                            /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String8endsWithERKS_                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String9compareToERKS_                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String9substringEj                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6String9substringEjj                          /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringeqERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringgeERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringgtERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringixEj                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZNK6StringleERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringltERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZNK6StringneERKS_                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+_ZTV14HardwareSerial                              /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+_ZTV5Print                                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+_ZTV6Stream                                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+__DATA_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__DATA_REGION_ORIGIN__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__EEPROM_REGION_LENGTH__                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__TEXT_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__addsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__addsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__brkval                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+__ctype_isfalse                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+__ctype_istrue                                    /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+__cxa_pure_virtual                                ./src/main.o
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__divsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__divsf3_pse                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                                                  ./src/main.o
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                                                  ./src/main.o
+__do_global_ctors                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+__epilogue_restores__                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+__eqsf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fixsfsi                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__floatsisf                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__floatunsisf                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__flp                                             /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+__fp_cmp                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_nan                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscA                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixsfsi.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+__heap_start                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__itoa                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+__itoa_ncheck                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+__lesf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__ltoa                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+__ltoa_ncheck                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+__ltsf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__malloc_heap_end                                 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+__malloc_heap_start                               /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+__malloc_margin                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+__mulsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__mulsf3_pse                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+__mulsi_const_10                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+__nesf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__prologue_saves__                                /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__subsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+__system_time                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_time.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+__tablejump2__                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(Print.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+__ultoa                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+__ultoa_common                                    /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa_ncheck.o)
+__ultoa_ncheck                                    /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+__utoa_common                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa_ncheck.o)
+__utoa_ncheck                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+__vector_1                                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+atol                                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(atol.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+attachInterrupt                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+                                                  ./src/main.o
+detachInterrupt                                   /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WInterrupts.o)
+digitalRead                                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+digitalWrite                                      /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+                                                  ./src/main.o
+digital_pin_to_bit_mask_PGM                       /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+digital_pin_to_port_PGM                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+digital_pin_to_timer_PGM                          /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+free                                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+initVariant                                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+interruptSemaphore                                ./src/main.o
+isspace                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(isspace.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+itoa                                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(itoa.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+loop                                              ./src/main.o
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+ltoa                                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ltoa.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+main                                              ./src/main.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+malloc                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+memcpy                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memcpy.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+memset                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(memset.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+pcTaskGetName                                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+pcTimerGetName                                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+pinMode                                           /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+                                                  ./src/main.o
+portTickRateHz                                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+port_to_input_PGM                                 /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+port_to_mode_PGM                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+port_to_output_PGM                                /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(pins_arduino.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(wiring_digital.o)
+pvPortMalloc                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+pvTaskIncrementMutexHeldCount                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+pvTimerGetTimerID                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+pxCurrentTCB                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+pxPortInitialiseStack                             /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+realloc                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+rx_buffer                                         /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(HardwareSerial.o)
+setup                                             ./src/main.o
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+strcat                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcat.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strchr                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strchr.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strcmp                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcmp.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strcpy                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strcpy.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strncmp                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncmp.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strncpy                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strncpy.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strrchr                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrchr.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+strrev                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strrev.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(utoa_ncheck.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa_ncheck.o)
+strstr                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(strstr.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+system_tick                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(system_tick.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+ticksRemainingInSec                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+tolower                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(tolower.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+toupper                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(toupper.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+ulTaskGenericNotifyTake                           /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ulTaskGenericNotifyValueClear                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+ultoa                                             /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(ultoa.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoCore/libArduinoCore.a(WString.o)
+uxListRemove                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxQueueGetQueueItemSize                           /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxQueueGetQueueLength                             /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxQueueMessagesWaiting                            /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxQueueMessagesWaitingFromISR                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxQueueSpacesAvailable                            /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxTaskBasePriorityGet                             /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTaskBasePriorityGetFromISR                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTaskGetNumberOfTasks                            /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+uxTaskGetStackHighWaterMark                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTaskPriorityGet                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTaskPriorityGetFromISR                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTaskResetEventItemValue                         /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+uxTimerGetReloadMode                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+vApplicationIdleHook                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vApplicationMallocFailedHook                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+vApplicationStackOverflowHook                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vListInitialise                                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vListInitialiseItem                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vListInsert                                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vListInsertEnd                                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(list.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vPortDelay                                        /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+vPortEndScheduler                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vPortFree                                         /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vPortHeapResetState                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+vPortYield                                        /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vPortYieldFromTick                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+vQueueDelete                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vQueueWaitForMessageRestricted                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+vTaskDelay                                        /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+vTaskDelete                                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskEndScheduler                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskGenericNotifyGiveFromISR                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskInternalSetTimeOutState                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskMissedYield                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskPlaceOnEventList                             /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskPlaceOnEventListRestricted                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskPlaceOnUnorderedEventList                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskPriorityDisinheritAfterTimeout               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskPrioritySet                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskRemoveFromUnorderedEventList                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskResetState                                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskResume                                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskSetTimeOutState                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskStartScheduler                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(variantHooks.o)
+                                                  ./src/main.o
+vTaskSuspend                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+vTaskSuspendAll                                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+vTaskSwitchContext                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+vTimerResetState                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+vTimerSetReloadMode                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+vTimerSetTimerID                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+wdt_interrupt_enable                              ./src/main.o
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+xPortStartScheduler                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xQueueCreateCountingSemaphore                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueCreateMutex                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueGenericCreate                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  ./src/main.o
+xQueueGenericReset                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueGenericSend                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xQueueGenericSendFromISR                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xQueueGiveFromISR                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  ./src/main.o
+xQueueGiveMutexRecursive                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueIsQueueEmptyFromISR                         /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueIsQueueFullFromISR                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueuePeek                                        /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueuePeekFromISR                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueReceive                                     /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xQueueReceiveFromISR                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xQueueSemaphoreTake                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+                                                  ./src/main.o
+xQueueTakeMutexRecursive                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskCatchUpTicks                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskCheckForTimeOut                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskCreate                                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  ./src/main.o
+xTaskDelayUntil                                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGenericNotify                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGenericNotifyFromISR                         /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGenericNotifyStateClear                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGenericNotifyWait                            /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGetCurrentTaskHandle                         /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskGetCurrentTaskHandleForCore                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskGetSchedulerState                            /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTaskGetTickCount                                 /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTaskGetTickCountFromISR                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTaskIncrementTick                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(port.o)
+xTaskPriorityDisinherit                           /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskPriorityInherit                              /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskRemoveFromEventList                          /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskResumeAll                                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(heap_3.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(queue.o)
+xTaskResumeFromISR                                /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTimerCreate                                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerCreateTimerTask                             /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTimerGenericCommandFromISR                       /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerGenericCommandFromTask                      /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerGetExpiryTime                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerGetPeriod                                   /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerGetReloadMode                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+xTimerGetTimerDaemonTaskHandle                    /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
+                                                  /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(tasks.o)
+xTimerIsTimerActive                               /home/michel/Schreibtisch/beleg_embed/ArduinoLibraries/Release/libArduinoLibraries.a(timers.o)
