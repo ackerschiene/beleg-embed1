@@ -10,7 +10,7 @@ Wenn in den Projekteinstellungen kein Board ausgewählt werden kann, ist es notw
 
 ![grafik](https://github.com/user-attachments/assets/75c10576-a406-4052-b598-215c3559a7a8)
 
-Danach muss in den Projekteinstellungen des Projekts BinarySemaphores noch der Programmer Konfiguriert werden.
+Danach muss in den Projekteinstellungen des Projekts BinarySemaphores noch der Programmer konfiguriert werden.
 
 ![grafik](https://github.com/user-attachments/assets/1f5656f2-228c-454c-bf7b-4bf4e258e450)
 
