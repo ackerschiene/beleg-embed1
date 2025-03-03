@@ -6,7 +6,7 @@ Zum Umsetzen des Projekts wird als erstes der Projektordner "ArduinoCore" in Ecl
 Der dritte Projektordner "BinarySemaphores wird zunächst nur hinzugefügt und aber noch nicht gebuildet, da noch kleinere Einstellungen durchgeführt werden müssen, die sich nicht exportieren ließen. Sie werden im Folgenden erklärt.
 
 Zusätzlich ist der Ordner eclipse-toolchain noch beigefügt. Er dient der Problemlösung bezüglich einer Sprachbarriere zwischen AVRDude und Eclipse. 
-Wenn in den Projekteinstellungen kein Board ausgewählt werden kann, ist es notwendig diesen Ordner in das (Ubuntu-)Verzeichnis /usr/local/ zu kopieren und den Pfad in den Eclipse-Gesamteinstellungen bei AVR -> Paths hinzuzufügen.
+Wenn in den Projekteinstellungen kein Board ausgewählt werden kann, ist es notwendig diesen Ordner in das (Ubuntu-)Verzeichnis /usr/local/ zu kopieren und den Custom-Pfad /usr/local/eclipse-toolchain in den Eclipse-Gesamteinstellungen bei AVR -> Paths hinzuzufügen.
 
 ![grafik](https://github.com/user-attachments/assets/75c10576-a406-4052-b598-215c3559a7a8)
 
