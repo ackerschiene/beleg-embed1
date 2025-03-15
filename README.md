@@ -30,3 +30,6 @@ Man sollte nun die grüne LED abwechselnd an oder aus gehen sehen.
 
 
 \* Es können auch alle drei Projektordner gemeinsam in Eclipse hinzugefügt werden. Sie müssen aber in der oben genannten Reihenfolge gebuildet werden, da sie auf eineander aufbauen.
+
+
+FreeeRTOS-Programm basiert auf Code-Beispiel Nr. 2: https://microcontrollerslab.com/freertos-binary-semaphore-tasks-interrupt-synchronization-u-arduino/
